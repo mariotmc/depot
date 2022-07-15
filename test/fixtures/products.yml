@@ -13,7 +13,7 @@ two:
   price: 9.99
 
 ruby:
-  title: Ruby
+  title: Ruby Language
   description: This is Ruby.
   image_url: cat.png
   price: 50.00
