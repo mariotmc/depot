@@ -27,7 +27,27 @@
       }
 
       .price {
+        margin-top: auto;
         font-size: 1.414em;
+      }
+
+      form,
+      div {
+        display: inline;
+      }
+
+      input[type="submit"] {
+        background-color: #282;
+        border-radius: 0.354em;
+        border: solid thin #141;
+        color: #fff;
+        font-size: 1em;
+        padding: 0.354em 1em;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #141;
+        cursor: pointer;
       }
     }
   }

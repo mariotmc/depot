@@ -20,6 +20,9 @@
     <section class="content">
       <nav class="side_nav">
         <p class="text-lg text-white text-center font-medium"><%= @time %></p>
+        <% if @count.to_i > 5 %>          
+          <p class="text-lg text-white text-center font-medium"><%= "Count: #{@count}" %></p>
+        <% end %>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/questions">Questions</a></li>
