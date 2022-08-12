@@ -1,4 +1,6 @@
 class StoreController < ApplicationController
+  skip_before_action :authorize
+  
   include CurrentCart
   before_action :set_cart
   before_action :get_session_count, only: [:index]
