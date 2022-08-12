@@ -1,6 +1,8 @@
 require "application_system_test_case"
 
 class OrdersTest < ApplicationSystemTestCase
+  include ActiveJob::TestHelper
+  
   setup do
     @order = orders(:one)
   end
